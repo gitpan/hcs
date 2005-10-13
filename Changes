@@ -1,0 +1,22 @@
+# $Id: Changes,v 1.6 2005/03/12 05:59:14 comdog Exp $
+
+1.07 - Fri Mar 11 23:56:00 2005
+	* Added POD coverage tests, fixed issues
+	* no code updates: no need to upgrade
+
+1.06 - Mon Sep 20 20:13:09 2004
+* updated to work with the latest Mac::PropertyList, which has a new
+interface
+
+1.03 - Thu Nov 27 06:56:07 2003
+HTTP::Cookies::Safari now uses Date::Calc instead of Date::Manip.
+This should make date calculations much faster. 
+
+No bugs were fixed, but this should be a performance boost.
+
+1.02 - Wed Jan  8 01:11:51 2003
+	* now handles expiry times
+
+1.01 - Tue Jan  7 23:54:19 2003
+	* initial version to work with Safari cookie files
+
